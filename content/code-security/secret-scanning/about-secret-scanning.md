@@ -79,8 +79,7 @@ To monitor results from {% data variables.product.prodname_secret_scanning %} ac
 ### List of supported secrets for private repositories
 {% endif %}
 
-{% data variables.product.prodname_dotcom %}  currently scans{% ifversion fpt or ghec %} private{% endif %} repositories for secrets issued by the following service providers.
-
+{% data variables.product.prodname_dotcom %}  currently scans{% ifversion fpt or ghec %} private{% endif %} repositories for secrets issued by the following service pro
 {% data reusables.secret-scanning.partner-secret-list-private-repo %}
 
 {% ifversion ghes < 3.2 or ghae %}
